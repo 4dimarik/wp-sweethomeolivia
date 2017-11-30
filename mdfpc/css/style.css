@@ -1,0 +1,135 @@
+/*
+Theme Name: MDB Full Page Carousel
+Theme URI: http://www.mdbootstrap.com
+Description: This is outstanding WP Blog theme developed on Material Design for Bootstrap 4
+Version: 4.4.1
+Author: MDBootstrap.com
+Author URI: http://www.mdbootstrap.com
+*/
+html, body, .view {
+  height: 100%;
+}
+.view-post {
+    height: unset;
+
+}
+
+/* Navigation*/
+
+.navbar {
+  background-color: transparent;
+}
+
+.scrolling-navbar {
+  -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+  -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+  transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+  background-color: #1C2331;
+}
+
+footer.page-footer {
+  background-color: #1C2331;
+  margin-top: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #1C2331;
+  }
+  .singl-main {
+    height: 100%;
+    }
+  #map-container {
+    height: 700px;
+    }
+}
+/* Carousel*/
+
+.carousel {
+  height: 400px;
+}
+
+.carousel-item, .active {
+  height: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+/*Caption*/
+
+.flex-center {
+  color: #fff;
+}
+
+@media (min-width: 776px) {
+  .carousel .view ul li {
+    display: inline;
+  }
+
+  .carousel .view .full-bg-img ul li .flex-item {
+    margin-bottom: 1.5rem;
+  }
+ .singl-main {
+    height: calc(100% - 264px);
+    }
+ .container-singl {
+    height: calc(100% - 232px);
+    }
+    .container-contacts {
+    height: calc(100% - 304px);
+    }
+ #map-container {
+    height: 400px;
+}
+}
+
+
+.wtime {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #fff;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.social-section {
+    display: flex;
+    justify-content: center;
+}
+.breadcrumb {
+    background-color: transparent;
+}
+.content-text p {
+    text-align: left;
+}
+.widSSP {
+    width: 100% !important;
+    font-size: 1rem !important;
+}
+#CDSWIDSSP dl,#CDSWIDSSP dt,#CDSWIDSSP dd,#CDSWIDSSP ol,#CDSWIDSSP ul,#CDSWIDSSP li,#CDSWIDSSP p{
+    font-size: 1rem !important;
+}
+#CDSWIDSSP .widSSPData .widSSPOneReview .widSSPBullet li span {
+    font-size: 0.8rem !important;
+
+}
+#CDSWIDSSP .widSSPData .widSSPAll a{
+    font-size: 0.8rem !important;
+}
+
+#flickr_gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+#flickr_gallery .view {
+    height: unset;
+}
+#flickr_gallery .grey-text {
+    font-size: 0.8rem;
+}
+
+
